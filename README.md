@@ -2,5 +2,7 @@
 > npm i
 > npm start
 
-# Build config for heroku
+# For heroku deployment
+> heroku create websshot
 > heroku buildpacks:add jontewks/puppeteer
+> git push heroku master
